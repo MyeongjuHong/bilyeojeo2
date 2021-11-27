@@ -1,4 +1,170 @@
-.App {
+#root {
+  text-align: center;
+  min-width: 280px;
+}
+
+.Body {
+  max-width: 720px;
+  min-width: 280px;
+  margin: auto;
+}
+
+.Link {
+  text-decoration: none;
+  color: inherit;
+  margin: auto;
+}
+
+.Shadow {
+  text-shadow: 1px 1px 1px gray;
+}
+
+/* Navbar */
+
+.Header {
+  background-color: lightblue;
+  width: 100%;
+  display: inline-block;
+}
+
+.CenterBar {
+  max-width: 720px;
+  margin: auto;
+}
+
+.HomeBar {
+  vertical-align: middle;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#logo {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.Name {
+  font-size: 25px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.Login {
+  vertical-align: middle;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 0;
+  box-shadow: 2px 2px 5px gray;
+}
+
+@media screen and (max-width: 340px) {
+  .HomeBar {
+    margin-right: 10%;
+  }
+
+  .Login {
+    margin-left: 10%;
+  }
+}
+
+/* Main */
+
+.Notice {
+  background-color: hsl(193, 47%, 96%);
+  width: 100%;
+  height: 380px;
+  margin-bottom: 50px;
+  padding-top: 90px;
+}
+
+.notice {
+  padding: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#goods {
+  width: 100%;
+}
+
+.Area {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.List {
+  font-weight: bold;
+  background-color: lightblue;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+/* Login, Join */
+
+.Bar {
+  margin: 50px;
+}
+
+.InputBox {
+  background-color: rgb(247, 253, 255);
+  max-width: 540px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 30px;
+}
+
+.Label {
+  font-size: 30px;
+}
+
+.Form {
+  margin-top: 30px;
+}
+
+input {
+  border: 0;
+}
+
+.Input {
+  margin: 10px;
+  background-color: transparent;
+  border-bottom: 2px solid;
+}
+
+.Submit {
+  background-color: lightblue;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 0;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.RecJoin {
+  margin-top: 30px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +201,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
