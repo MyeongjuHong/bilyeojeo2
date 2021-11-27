@@ -17,6 +17,8 @@ function Join() {
       <div className="InputBox">
         <div className="Label Shadow">회원가입</div>
         <form action="" method="post" className="Form">
+          <input name="name" type="text" placeholder="이름" className="Input" />
+          <br />
           <input name="id" type="text" placeholder="아이디" className="Input" />
           <br />
           <input
